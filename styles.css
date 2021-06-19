@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+}
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+header {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+}
+.marca {
+	color: black;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.botonCarrito {
+	height: 40px;
+	width: 40px;
+	background-color: darkmagenta;
+	border: darkmagenta 1px solid;
+	border-radius: 20px;
+}
+.main {
+	background-color: deeppink;
+	color: ghostwhite;
+	height: 250px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.mainTitulo {
+	font-size: 3rem;
+}
+.mainSubtitulo {
+	font-size: 1.5rem;
+}
+#cursos {
+	display: flex;
+	justify-content: space-evenly;
+}
+.cursosTitulo {
+	font-size: 3rem;
+	color: black;
+	text-align: center;
+}
+
+.curso {
+	width: 250px;
+	height: 420px;
+	border: 1px solid grey;
+}
+.cursoImg {
+	background-color: rgb(114, 20, 202);
+	width: 100%;
+	height: 200px;
+}
+.img2 {
+	background-color: rgb(175, 15, 196);
+}
+
+.cursoContenido {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.precios {
+	display: flex;
+	justify-content: space-between;
+}
+.precio {
+	display: inline;
+	text-decoration: line-through;
+}
+.precioOferta {
+	font-weight: bold;
+}
+.btnAgregar {
+	background-color: deeppink;
+	padding: 8px 10px;
+	height: 40px;
+	width: 210px;
+	border: 1px solid;
+	border-radius: 20px;
+	color: whitesmoke;
+	text-align: center;
+}
