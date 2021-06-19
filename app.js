@@ -11,11 +11,19 @@ const cursos = document.getElementById('cursos');
 //Listeners
 cursos.addEventListener('click', (e) => {
 	if (e.target.classList.contains('btnAgregar')) {
-		console.log(
-			e.target.previousElementSibling.previousElementSibling
-				.previousElementSibling.firstElementChild
-		);
+		const itemAgregar = {
+			titulo:
+				e.target.previousElementSibling.previousElementSibling
+					.previousElementSibling.textContent,
+		};
+		agregarCarrito(itemAgregar);
 	}
 });
 
 //Funciones
+let carritoItems = [];
+function agregarCarrito(item) {
+	carritoItems.push(item);
+	console.log(carritoItems);
+	// return carritoItems;
+}
